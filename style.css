@@ -1,0 +1,20 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: rgb(193,193,251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+}
+
+#result{
+
+    display: grid; /* ugy mukodik mint a flex-nel, minden gyermekelemre vonatkozik a beallitas: egy sorban 3 elem legyen */
+    width: 1200px; /* 1200px teruleten tortenjen meg a felosztas */
+    grid-template-columns: repeat(3, 1fr); /* "fr" = fraction, 3 elemet ismeteljen egy sorba (automatikusan allitsa be a tavolsagot koztuk)*/
+    gap: 20px;
+    place-items: center; /* kozepre igazitja az elemeket az 1200px-en belul */ 
+}
