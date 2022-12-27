@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    color: #000;
 
 }
 
@@ -17,4 +17,35 @@ body{
     grid-template-columns: repeat(3, 1fr); /* "fr" = fraction, 3 elemet ismeteljen egy sorba (automatikusan allitsa be a tavolsagot koztuk)*/
     gap: 20px;
     place-items: center; /* kozepre igazitja az elemeket az 1200px-en belul */ 
+}
+
+.order{
+
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid #f9f9f989;
+    border-radius: 10px;
+    background: #f9f9f989;
+    box-shadow: 0 2px 6 px rgba(0,0,0,0.3);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+
+    width: 50%;
+
+}
+
+hr{
+
+    width: 100%;
+    height: 2px;
+    background: black;
+    border: none;
+
 }
